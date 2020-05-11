@@ -22,8 +22,7 @@ class OtpTimer extends StatefulWidget {
   _OtpTimerState createState() => _OtpTimerState();
 }
 
-class _OtpTimerState extends State<OtpTimer>
-    with TickerProviderStateMixin {
+class _OtpTimerState extends State<OtpTimer> with TickerProviderStateMixin {
   AnimationController controller;
 
   String get timerString {

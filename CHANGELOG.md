@@ -1,3 +1,8 @@
+## [0.9.7] - 12.05.2020
+
+* Indent code
+* Longer description
+
 ## [0.9.4] - 12.05.2020
 
 * Class name change to OtpTimer

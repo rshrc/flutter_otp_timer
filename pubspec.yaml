@@ -1,6 +1,6 @@
 name: flutter_otp_timer
-description: Flutter OTP Timer
-version: 0.9.4
+description: Flutter OTP Timer for keeping track of how much time is left for a message to arrive.
+version: 0.9.7
 maintainer: Rishi Banerjee @rshrc
 homepage: https://github.com/rshrc/flutter_otp_timer
 
