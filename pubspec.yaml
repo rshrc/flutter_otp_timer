@@ -1,7 +1,7 @@
 name: flutter_otp_timer
 description: Flutter OTP Timer
 version: 0.9.0
-author: Rishi Banerjee<rishieric91@gmail.com>
+maintainer: Rishi Banerjee @rshrc
 homepage: https://github.com/rshrc/flutter_otp_timer
 
 environment:
