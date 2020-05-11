@@ -3,14 +3,14 @@ library flutter_otp_timer;
 import 'package:flutter/material.dart';
 import 'package:flutter_otp_timer/time_painter.dart';
 
-class CountdownTimer extends StatefulWidget {
+class OtpTimer extends StatefulWidget {
   final double radius;
   final int duration;
   final double timeTextSize;
   final Color backgroundColor;
   final Color animatingColor;
 
-  CountdownTimer({
+  OtpTimer({
     @required this.radius,
     @required this.duration,
     @required this.timeTextSize,
@@ -19,10 +19,10 @@ class CountdownTimer extends StatefulWidget {
   });
 
   @override
-  _CountdownTimerState createState() => _CountdownTimerState();
+  _OtpTimerState createState() => _OtpTimerState();
 }
 
-class _CountdownTimerState extends State<CountdownTimer>
+class _OtpTimerState extends State<OtpTimer>
     with TickerProviderStateMixin {
   AnimationController controller;
 
